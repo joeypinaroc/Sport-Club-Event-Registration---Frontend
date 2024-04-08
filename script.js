@@ -87,7 +87,6 @@ $(document).ready(() => {
                 <p>Status: ${data[index].status}</p>
                 <p>Fee: ${fee}</p>
             `);
-            $('#container').append(confirmationDiv);
         }
     })
 })

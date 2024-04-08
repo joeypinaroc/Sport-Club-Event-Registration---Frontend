@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    margin-top: 25px;
+}
+#containerBody {
+    border: 1px solid black;
+    width: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#containerBody div {
+    width: 250px;
+    margin: 10px auto;
+}
+#containerBody button {
+    width: 250px;
+    margin: 10px auto;
+}
+
+/* confirmation body */
+#confirmationBody {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    margin: auto;
+    border: 1px solid white;
+    align-items: center;
+}
